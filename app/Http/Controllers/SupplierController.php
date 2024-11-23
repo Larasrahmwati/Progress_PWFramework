@@ -15,7 +15,7 @@ class SupplierController extends Controller
         $suppliers = Supplier::all(); // Get all suppliers to pass to the view
         return view('layout', compact('suppliers'));
     }
-
+ 
     /**
      * Show the form for creating a new resource.
      */

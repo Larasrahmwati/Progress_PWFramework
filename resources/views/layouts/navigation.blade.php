@@ -37,11 +37,11 @@
 
 
                     <x-slot name="content">
-                        <x-dropdown-link :href="route('product-create')">
-                           Product Input
+                        <x-dropdown-link :href="route('product-index')">
+                           Product Master
                         </x-dropdown-link>
                         <x-dropdown-link :href="route('supplier-create')">
-                           Supplier
+                           Supplier Master
                         </x-dropdown-link>
                         </x-slot>
                 </x-dropdown>
